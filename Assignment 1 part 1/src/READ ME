@@ -1,0 +1,73 @@
+**Fibonacci Series Generator**
+
+This Java program generates the Fibonacci series up to a specified limit based on user input using various input methods including command line arguments, Scanner, BufferedReader, DataInputStream, and Console.
+
+### How to Run
+
+1. Ensure you have Java installed on your system.
+2. Compile the `FibonacciSeries.java` file using the Java compiler.
+   ```bash
+   javac FibonacciSeries.java
+   ```
+3. Run the compiled Java program.
+   ```bash
+   java FibonacciSeries
+   ```
+
+### Input Methods
+
+The program provides a menu-driven interface to select the input method. Here are the available input methods:
+
+1. **Command Line Arguments**: Run the program with the limit specified as a command line argument.
+   ```bash
+   java FibonacciSeries <limit>
+   ```
+   
+2. **Scanner**: Enter the limit through the Scanner input method.
+   
+3. **BufferedReader**: Enter the limit using BufferedReader input method.
+   
+4. **DataInputStream**: Enter the limit using DataInputStream input method.
+   
+5. **Console**: Enter the limit using Console input method (if available).
+
+### Usage
+
+Follow the instructions provided by the program after selecting the input method to generate the Fibonacci series up to the specified limit.
+
+### Example
+
+Here's an example of running the program using different input methods:
+
+1. Command Line Arguments:
+   ```bash
+   java FibonacciSeries 10
+   ```
+   
+2. Scanner:
+   ```
+   Enter your choice: 2
+   Enter the limit: 10
+   ```
+   
+3. BufferedReader:
+   ```
+   Enter your choice: 3
+   Enter the limit: 10
+   ```
+   
+4. DataInputStream:
+   ```
+   Enter your choice: 4
+   Enter the limit: 10
+   ```
+   
+5. Console:
+   ```
+   Enter your choice: 5
+   Enter the limit: 10
+   ```
+
+### Note
+
+Ensure to provide a valid integer as the limit when prompted by the program.
