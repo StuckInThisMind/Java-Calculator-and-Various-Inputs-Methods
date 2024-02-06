@@ -60,4 +60,16 @@ public class Calculator {
 		
 	}
 	
+	public double sqrt(double x)
+	{
+		return (Math.sqrt(x));
+		
+	}
+	
+	public double power(double x, double y)
+	{
+		return Math.pow(x, y);
+		
+	}
+	
 }

@@ -7,7 +7,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		Calculator calculator = new Calculator();
 		
-		System.out.println("Type 1 for Addition \nType 2 for Substraction \nType 3 for Multiple \nType 4 for Division \nType 5 for Mean \nType 6 for Variance \nType 7 for Standard Deviation");
+		System.out.println("Type 1 for Addition \nType 2 for Substraction \nType 3 for Multiple \nType 4 for Division \nType 5 for Mean \nType 6 for Variance \nType 7 for Standard Deviation \nType 8 for Power \nType 9 for Square Root");
 	
 		int opt = sc.nextInt();
 		switch (opt)
@@ -78,6 +78,20 @@ public class Main {
 			} else {
 			    System.out.println("Cannot divide by zero!");
 			}
+			
+		case 8:   
+			// power
+			System.out.println("Enter the number of you want power of:" );
+			int powerof = sc.nextInt();
+			System.out.println("Enter the power of the number");
+			int power = sc.nextInt();
+			System.out.println(powerof+" raised to the power of "+ power+ " is "+ calculator.power(powerof, power));
+			break;
+		case 9 : 
+			System.out.println("Enter the number of you want sqt of :" );
+			double sqt = sc.nextInt();
+			System.out.println("The sqrt of your number is:" + calculator.sqrt(sqt));
+			break;
 	
 		}
 		
