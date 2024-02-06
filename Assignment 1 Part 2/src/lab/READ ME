@@ -29,6 +29,58 @@ The program presents a menu for the user to choose the operation they want to pe
 8. Power
 9. Square Root
 
+Certainly! Below is the description of each function within the provided classes:
+
+### Main Class (`Main.java`)
+
+1. **main()**: 
+   - This is the entry point of the program.
+   - It presents a menu for selecting various mathematical operations.
+   - Based on the user's choice, it interacts with the `Input` class to receive input data and the `Calculator` class to perform calculations.
+   - The program then displays the result of the chosen operation.
+
+### Input Class (`Input.java`)
+
+1. **inputNumbers()**:
+   - Prompts the user to input two numbers.
+   - Reads and returns these two numbers as an array.
+
+2. **inputArray(int length)**:
+   - Prompts the user to input an array of numbers of a specified length.
+   - Reads and returns the array of numbers.
+
+### Calculator Class (`Calculator.java`)
+
+1. **addition(double no1, double no2)**:
+   - Takes two numbers as input and returns their sum.
+
+2. **mean(double[] numbers)**:
+   - Takes an array of numbers as input and calculates the mean (average) of these numbers.
+
+3. **variance(double[] numbers)**:
+   - Takes an array of numbers as input and calculates the variance of these numbers.
+
+4. **std(double[] numbers)**:
+   - Takes an array of numbers as input and calculates the standard deviation of these numbers.
+
+5. **substraction(double x, double y)**:
+   - Takes two numbers as input and returns their difference.
+
+6. **multiply(double x, double y)**:
+   - Takes two numbers as input and returns their product.
+
+7. **division(double x, double y)**:
+   - Takes two numbers as input and returns the result of dividing the first number by the second number. Checks for division by zero.
+
+8. **sqrt(double x)**:
+   - Takes a number as input and returns its square root.
+
+9. **power(double x, double y)**:
+   - Takes two numbers as input and returns the result of raising the first number to the power of the second number.
+
+These functions provide the core functionality of the calculator application, allowing users to perform a variety of mathematical operations.
+
+
 ### Usage
 
 1. Select the operation by typing the corresponding number from the menu.
