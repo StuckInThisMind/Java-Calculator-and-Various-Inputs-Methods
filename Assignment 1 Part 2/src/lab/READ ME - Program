@@ -1,0 +1,100 @@
+**Calculator Application**
+
+This Java application provides functionalities for performing various mathematical operations including addition, subtraction, multiplication, division, mean, variance, standard deviation, power, and square root.
+
+### How to Run
+
+1. Compile the Java files.
+   ```bash
+   javac Main.java
+   javac Input.java
+   javac Calculator.java
+   ```
+2. Run the compiled Java program.
+   ```bash
+   java lab.Main
+   ```
+
+### Functionality
+
+The program presents a menu for the user to choose the operation they want to perform. Here are the available options:
+
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Mean
+6. Variance
+7. Standard Deviation
+8. Power
+9. Square Root
+
+### Usage
+
+1. Select the operation by typing the corresponding number from the menu.
+2. Follow the instructions provided by the program to input the required data.
+3. The program will display the result of the chosen operation.
+
+### Example
+
+Here's an example of running the program:
+
+1. Addition:
+   ```
+   Type 1 for Addition 
+   Type 2 for Substraction 
+   Type 3 for Multiple 
+   Type 4 for Division 
+   Type 5 for Mean 
+   Type 6 for Variance 
+   Type 7 for Standard Deviation 
+   Type 8 for Power 
+   Type 9 for Square Root
+   1
+   Enter First Number: 10
+   Enter Second Number: 20
+   The addition of 10.0 and 20.0 is 30.0
+   ```
+
+2. Mean:
+   ```
+   Type 1 for Addition 
+   Type 2 for Substraction 
+   Type 3 for Multiple 
+   Type 4 for Division 
+   Type 5 for Mean 
+   Type 6 for Variance 
+   Type 7 for Standard Deviation 
+   Type 8 for Power 
+   Type 9 for Square Root
+   5
+   Enter the number of elements: 4
+   Enter Element 1: 10
+   Enter Element 2: 20
+   Enter Element 3: 30
+   Enter Element 4: 40
+   The Mean is: 25.0
+   ```
+
+3. Variance:
+   ```
+   Type 1 for Addition 
+   Type 2 for Substraction 
+   Type 3 for Multiple 
+   Type 4 for Division 
+   Type 5 for Mean 
+   Type 6 for Variance 
+   Type 7 for Standard Deviation 
+   Type 8 for Power 
+   Type 9 for Square Root
+   6
+   Enter the number of elements: 3
+   Enter Element 1: 10
+   Enter Element 2: 20
+   Enter Element 3: 30
+   The Variance is: 66.66666666666667
+   ```
+
+### Note
+
+Ensure to provide valid input data, especially for operations like division (avoid division by zero) and square root (avoid negative numbers).
